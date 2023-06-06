@@ -1,8 +1,8 @@
 {
-    "CATEGORY_TAB_NAME":{
+    "folk":{
         "enable": true,
-        "title": "CATEGORY_TITLE",
-        "folder_path": "CATEGORY_FOLDER_PATH",
-        "description": "CATEGORY_DESCRIPTION"
+        "title": "Gutta",
+        "folder_path": "folk",
+        "description": "AI modeller av gutta"
     }
 }

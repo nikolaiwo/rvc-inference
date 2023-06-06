@@ -1,0 +1,10 @@
+{
+	"geo": {
+		"enable": true,
+		"name": "geo",
+        "title": "Geo",
+        "cover": "cover.png",
+		"feature_retrieval_library": "geo-v2-100epoc_e100.pth",
+		"author":"Niko"
+    }
+}
