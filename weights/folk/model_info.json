@@ -2,6 +2,7 @@
 	"geo": {
 		"enable": true,
 		"name": "geo",
+		"model_path": "geo.pth",
         "title": "Geo",
         "cover": "cover.png",
 		"feature_retrieval_library": "added_IVF798_Flat_nprobe_1_geo-v2-100epoc_v2.index",
@@ -10,6 +11,7 @@
 	"oskar": {
 		"enable": true,
 		"name": "oskar",
+		"model_path": "oskar.pth",
         "title": "Oskar",
         "cover": "cover.png",
 		"feature_retrieval_library": "added_IVF774_Flat_nprobe_1_oskar_v2.index",
