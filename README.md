@@ -1,8 +1,47 @@
 <div align="center">
 
-# **Inference for Retrieval-based-Voice-Conversion**
+# Multi Model RVC Inference
 
-[![GitHub](https://img.shields.io/github/license/arkandash/rvc-inference)](https://github.com/ArkanDash/rvc-inference/blob/master/LICENCE)
-[![Discord](https://discordapp.com/api/guilds/937944476385697803/widget.png?style=shield)](https://discord.gg/hvmsukmBHE)
+</div>
 
+### Information
+This Inference Pipeline is from Mangio-Fork <br />
+Support V1 Model and V2 Model
+
+Original Repository: [Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) <br />
+Mangio-Fork Repository: [RVC-Mangio-Fork-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI)
+
+#### Features
+- Youtube Audio Downloader
+- Demucs (Voice Splitter) [Internet Required] 
+- TTS Support
+- HuggingFace Spaces Inference [FREE TIER CPU]
+    - Remove Youtube & Input Path
+    - Remove Crepe Support due to gpu requirement
+
+#### Plans
+- New Multi RVC Inference ❗
+- Model Downloader
+
+### Installation
+[Download Hubert Model](https://huggingface.co/lj1995/VoiceConversionWebUI/resolve/main/hubert_base.pt)
+
+Install Requirement
+```bash
+pip install -r requirements.txt
+```
+
+Run WebUI
+```bash
+python app.py
+```
+
+Share gradio
+```bash
+python app.py --colab
+```
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/github/license/arkandash/Multi-Model-RVC-Inference)](https://github.com/ArkanDash/Multi-Model-RVC-Inference/blob/master/LICENSE)
 </div>
